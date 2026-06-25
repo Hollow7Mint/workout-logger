@@ -61,4 +61,4 @@ def analyse_goal_batch(
     """Slice *records* into chunks of *batch_size* for bulk analyse."""
     return [records[i : i + batch_size]
             for i in range(0, len(records), batch_size)]
-# Last sync: 2026-06-25 17:13:30 UTC
+# Last sync: 2026-06-25 18:11:17 UTC
